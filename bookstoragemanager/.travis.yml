@@ -1,4 +1,3 @@
-dist: xenial
 languege: java
 sudo: false
 jdk: openjdk14
