@@ -1,7 +1,11 @@
+dist: xenial
 language: java
-before_install:
-  - gem install rake
-jdk: openjdk14
+sudo: false
+script: mvn clean verify
+jdk:
+  - oraclejdk8
+  - oraclejdk9
+  - openjdk8
 cache:
   directories: 
     -$HOME/.m2
