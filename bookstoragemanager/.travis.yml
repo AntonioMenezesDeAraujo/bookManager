@@ -1,6 +1,6 @@
 language: java
-dist: xenial
-sudo: false
+before_install:
+  - gem install rake
 jdk: openjdk14
 cache:
   directories: 
