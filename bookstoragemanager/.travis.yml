@@ -1,5 +1,5 @@
-dist: xenial
 language: java
+dist: xenial
 sudo: false
 jdk: openjdk14
 cache:
