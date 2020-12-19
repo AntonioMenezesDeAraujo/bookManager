@@ -1,2 +1,8 @@
 language: java
-jdk: oraclejdk8
+jdk: 
+  -openjdk8
+  
+script: ./mvnw clean install
+
+notifications:
+  email:antoniomenezes20@gmail.com  
