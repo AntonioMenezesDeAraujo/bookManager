@@ -1,5 +1,7 @@
+dist: xenial
 language: java
-jdk:
-- oraclejdk8
-before_install:
-- export TZ=Brasil/East
+sudo: false
+jdk: openjdk14
+cache:
+  directories: 
+    -$HOME/.m2
