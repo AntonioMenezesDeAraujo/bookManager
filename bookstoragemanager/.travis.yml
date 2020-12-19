@@ -1,5 +1,4 @@
-dist: xenial
 languege: java
-sudo: false
-jdk: openjdk14
+jdk: 
+  -oraclejdk8
 install: true
